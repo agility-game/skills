@@ -37,7 +37,7 @@ The same skill should function in any world.
 ⸻
 
 Integration Model
-
+```
 World
     ↓
 Departments
@@ -49,7 +49,7 @@ Missions
 Achievements
     ↓
 Story Progression
-
+```
 ⸻
 
 Example World
