@@ -56,7 +56,7 @@ The graph describes collaboration.
              └───────────────┬───────────────┘
                              ▼
                       CI/CD Engineer
-``'
+```
 ⸻
 
 Software Architect
