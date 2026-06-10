@@ -1,4 +1,4 @@
-# Skills
+# Usage of Skills
 
 - [References](./REFERENCES.md)
 
