@@ -29,7 +29,7 @@ Missions generate:
 Mission Structure
 
 Mission
-``‘
+```
 ├── Objective
 ├── Participants
 ├── Inputs
