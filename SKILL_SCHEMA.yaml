@@ -1,0 +1,47 @@
+apiVersion: skills.agility-game.io/v1
+
+kind: Skill
+
+metadata:
+  name: architect
+  version: 1.0.0
+
+spec:
+  title: Architect
+
+  description: >
+    Designs systems, evaluates trade-offs,
+    and guides technical direction.
+
+  knowledge:
+    - architecture
+    - patterns
+    - scalability
+
+  behaviors:
+    - review
+    - design
+    - coach
+
+  tools:
+    - open-notebook
+    - github
+
+  missions:
+    - architecture-review
+    - threat-model
+    - roadmap-design
+
+  scoring:
+    knowledge: 20
+    execution: 30
+    collaboration: 20
+    leadership: 20
+    innovation: 10
+
+  achievements:
+    - master-architect
+    - design-guru
+
+status:
+  phase: draft
