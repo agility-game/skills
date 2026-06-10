@@ -3,6 +3,9 @@
 Version: 1.0
 
 ---
+# Usage
+
+- [Usage](./USAGE.md)
 
 # Purpose
 
