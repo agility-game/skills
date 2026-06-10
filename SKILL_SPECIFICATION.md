@@ -29,7 +29,7 @@ A skill contains:
 ---
 
 # Required Structure
-
+```
 skill-name/
 │
 ├── README.md
@@ -48,7 +48,7 @@ skill-name/
 ├── templates/
 ├── assets/
 └── tests/
-
+```
 ---
 
 # Skill Components
