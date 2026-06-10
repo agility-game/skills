@@ -1,0 +1,37 @@
+apiVersion: skills.agility-game.io/v1
+kind: Skill
+metadata:
+  name: code-smell-detective
+  version: 1.0.0
+spec:
+  title: Code Smell Detective
+  category: software-quality
+  description: Detects code smells, explains evidence, and proposes safe refactoring steps.
+  knowledge:
+    - code-smells
+    - refactoring
+    - design-principles
+    - software-quality
+  behaviors:
+    - evidence-first-investigation
+    - respectful-review
+    - incremental-refactoring
+    - teaching-oriented-feedback
+  layers:
+    - smell-detection
+    - evidence-analysis
+    - refactoring-planning
+    - mission-narrative
+  tools:
+    - github
+    - static-analysis
+    - test-runner
+    - open-notebook
+  scoring:
+    observation_accuracy: 20
+    smell_classification: 20
+    evidence_quality: 20
+    refactoring_plan: 20
+    communication: 20
+status:
+  phase: draft

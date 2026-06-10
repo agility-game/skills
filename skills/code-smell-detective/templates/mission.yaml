@@ -1,0 +1,41 @@
+id: csd-custom-001
+title: Custom Code Smell Investigation
+difficulty: intermediate
+duration: 45 minutes
+skill: code-smell-detective
+
+scenario: |
+  Describe the code smell case here.
+
+objective: |
+  Describe what the player or agent must discover.
+
+inputs:
+  - source_code
+  - tests
+  - change_history
+
+tasks:
+  - observe_code
+  - identify_smells
+  - collect_evidence
+  - assess_risk
+  - propose_refactoring
+  - report_findings
+
+success_criteria:
+  - smell classification is evidence-based
+  - refactoring plan is safe and incremental
+  - tests or validation are included
+
+scoring:
+  observation_accuracy: 20
+  smell_classification: 20
+  evidence_quality: 20
+  refactoring_plan: 20
+  communication: 20
+
+rewards:
+  xp: 100
+  achievements:
+    - evidence-collector
