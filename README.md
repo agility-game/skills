@@ -24,7 +24,7 @@ The repository should become the canonical library of capabilities that can be a
 * Capsules
 
 Examples:
-
+```
 skills/
 ├── product-owner/
 ├── scrum-master/
@@ -37,9 +37,9 @@ skills/
 ├── devops-engineer/
 ├── release-manager/
 └── facilitator/
-
+```
 Each skill would contain:
-
+```
 Skill
  ├── Knowledge
  ├── Behaviors
@@ -49,7 +49,7 @@ Skill
  ├── Scoring
  ├── Missions
  └── Achievements
-
+```
 ⸻
 
 How Layers Fits
@@ -59,7 +59,7 @@ The Layers framework you referenced earlier is almost a perfect match.
 Instead of treating Layers as a separate system, use it as the implementation model for Agility Game skills.
 
 Example:
-
+```
 agility-game/skills
 architect/
 ├── skill.yaml
@@ -72,7 +72,7 @@ architect/
     ├── threat-modeling.md
     ├── domain-modeling.md
     └── technical-roadmapping.md
-
+```
 The Layers assets become the internal building blocks of a skill.
 
 ⸻
@@ -80,7 +80,7 @@ The Layers assets become the internal building blocks of a skill.
 Skill Structure
 
 I would standardize every skill as:
-
+```
 skill/
 │
 ├── README.md
@@ -98,22 +98,22 @@ skill/
 ├── assets/
 ├── templates/
 └── tests/
-
+```
 ⸻
 
 Runtime Integration
 
 The Agility Game Kernel can load skills dynamically:
-
+```
 player:
   name: Sarah
 skills:
   - architect
   - developer
   - security-engineer
-
+```
 The runtime then resolves:
-
+```
 Kernel
   ↓
 Skill Resolver
@@ -123,7 +123,7 @@ Prompt Resolver
 Tool Resolver
   ↓
 Mission Engine
-
+```
 This aligns perfectly with the kernel architecture.
 
 ⸻
@@ -155,7 +155,7 @@ Examples:
 * Developer
 
 Diagram:
-
+```
 Architect Skill
         │
         ▼
@@ -174,7 +174,7 @@ Scrum Master Skill
  ┌──────────────┐
  │ StoriesBoard │
  └──────────────┘
-
+```
 ⸻
 
 Relationship with Worlds
@@ -182,21 +182,21 @@ Relationship with Worlds
 Worlds define context.
 
 Example:
-
+```
 World
  └── Space Colony
 Skill
  └── Architect
 Mission
  └── Design colony power grid
-
+```
 Same architect skill:
-
+```
 World
  └── Medieval Kingdom
 Mission
  └── Design castle defenses
-
+```
 The skill remains reusable.
 
 ⸻
@@ -204,7 +204,7 @@ The skill remains reusable.
 Relationship with Departments
 
 Your earlier department model becomes even stronger.
-
+```
 Department
  ├── Product
  ├── Design
@@ -212,24 +212,24 @@ Department
  ├── Security
  ├── Operations
  └── Leadership
-
+```
 Departments are collections of skills.
 
 Example:
-
+```
 department: engineering
 skills:
   - architect
   - developer
   - tester
   - devops-engineer
-
+```
 ⸻
 
 What I Would Add Next
 
 Inside agility-game/skills:
-
+```
 skills/
 ├── README.md
 ├── SKILL_SPECIFICATION.md
@@ -239,7 +239,7 @@ skills/
 ├── SKILL_LEVELING.md
 ├── SKILL_MARKETPLACE.md
 └── examples/
-
+```
 These documents become the foundation for every future skill.
 
 ⸻
@@ -247,7 +247,7 @@ These documents become the foundation for every future skill.
 Long-term Vision
 
 The most powerful interpretation is:
-
+```
 Kernel
     +
 Worlds
@@ -259,7 +259,7 @@ Scenarios
 Skills
     =
 Agility Game
-
+```
 Where:
 
 * Kernel = execution engine
